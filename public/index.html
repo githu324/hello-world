@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello World!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <!-- 主标题 -->
+    <h1 class="title">Hello World!</h1>
+
+    <!-- 服务器时间展示区 -->
+    <p class="time-label">当前服务器时间</p>
+    <p id="serverTime" class="time-value">加载中…</p>
+
+    <!-- 服务器地址信息（服务端渲染，页面加载即显示） -->
+    <p id="serverHost" class="host-info"></p>
+  </main>
+
+  <!-- 引入前端脚本：负责请求 /api/time 并每秒刷新服务器时间 -->
+  <script src="app.js"></script>
+</body>
+</html>

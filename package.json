@@ -1,0 +1,14 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "一个 Node.js HelloWorld 网站：访问时显示 Hello World 与当前服务器时间",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT"
+}

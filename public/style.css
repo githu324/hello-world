@@ -1,0 +1,48 @@
+/* 全局样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 48px 64px;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 48px;
+  color: #333333;
+  margin-bottom: 28px;
+}
+
+.time-label {
+  font-size: 14px;
+  color: #888888;
+  margin-bottom: 8px;
+}
+
+.time-value {
+  font-size: 32px;
+  font-weight: 600;
+  color: #4a4ae0;
+  font-variant-numeric: tabular-nums;
+}
+
+.host-info {
+  margin-top: 24px;
+  font-size: 13px;
+  color: #aaaaaa;
+}
