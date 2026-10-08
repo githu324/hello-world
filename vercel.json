@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "builds": [
+    { "src": "public/**", "use": "@vercel/static" },
+    { "src": "api/time.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/time", "dest": "/api/time.js" },
+    { "src": "/(.*)", "dest": "/public/$1" }
+  ]
+}
